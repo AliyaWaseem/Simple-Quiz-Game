@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Quiz Game</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+<body>
+  <div class="quiz-container" id="quizContainer">
+    <h1>Simple Quiz Game</h1>
+    <p class="question" id="question"></p>
+    <button onclick="selectAnswer(0)" id="choice0"></button>
+    <button onclick="selectAnswer(1)" id="choice1"></button>
+    <button onclick="selectAnswer(2)" id="choice2"></button>
+    <button onclick="selectAnswer(3)" id="choice3"></button>
+    <p class="feedback" id="feedback"></p>
+    <button id="nextBtn" onclick="loadNextQuestion()" style="display:none;">Next Question</button>
+    <button id="playAgainBtn" onclick="restartQuiz()" style="display:none;">Play Again</button>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
+
+
+
